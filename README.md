@@ -4,7 +4,7 @@
 
 **小程序二维码**
 
-**![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg)**
+**![img](D:\wxapp\LittleThing\docs\clip_image001.jpg)**
 
 **项目背景**
 
@@ -134,27 +134,27 @@ Petite Chose是法语中小事情的意思
 
 **新用户第一次打开界面**
 
-**![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg) ![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg) ![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)**
+**![img](D:\wxapp\LittleThing\docs\clip_image007.jpg) ![img](D:\wxapp\LittleThing\docs\clip_image009.jpg) ![img](D:\wxapp\LittleThing\docs\clip_image011.jpg)**
 
  
 
 **习惯打卡**
 
- **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)** **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)** **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)**
+ **![img](D:\wxapp\LittleThing\docs\clip_image013.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image015.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image017.jpg)**
 
  
 
 **记录日志界面**
 
- **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg)**
+ **![img](D:\wxapp\LittleThing\docs\clip_image019.jpg)**
 
 **新增和修改习惯**
 
-**![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg)** **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg)**
+**![img](D:\wxapp\LittleThing\docs\clip_image021.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image023.jpg)**
 
 **习惯管理**
 
-**![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image025.jpg)** **![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image027.jpg)**
+**![img](D:\wxapp\LittleThing\docs\clip_image025.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image027.jpg)**
 
 **后续**
 
