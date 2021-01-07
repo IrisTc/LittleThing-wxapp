@@ -1,0 +1,20 @@
+<!--pages/showLog/showLog.wxml-->
+<cu-custom bgColor="bg-gradual-green" isBack="true" bindtap="pageBack">
+  <view slot="backText">返回</view>
+  <view slot="content">所有日志</view>
+</cu-custom>
+<view class="page" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  <view class="cu-timeline">
+    <view class="cu-item text-green" wx:for="{{newLog}}" wx:key="date">
+      <view class="bg-gradual-green content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-green">第{{index+1}}天</view>
+          <view class="cu-tag line-white">{{item.date}}</view>
+        </view>
+        <view class="margin-top-sm text-content" wx:for="{{newLog[index].subList}}" wx:for-item="log" wx:key="content">
+          <view>{{log.content}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

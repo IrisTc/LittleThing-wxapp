@@ -1,0 +1,17 @@
+<cu-custom bgColor="bg-gradual-green"><view slot="content">Little Thing</view></cu-custom>
+<view class="top-header">
+  <text>请挑选至少1个习惯</text>
+</view>
+  <scroll-view scroll-y>
+    <view class='container grid col-3'>
+      <view wx:for="{{baseList}}" wx:key="name">
+        <view bindtap="onCheck" data-id="{{item.id}}" class="item {{item.checked == true? 'active':''}}">
+          <image src="cloud://mylog-server-2k32o.6d79-mylog-server-2k32o-1301449695/baseImg/{{item.image}}" style="background-color:{{item.color}}"></image>
+          <view class="item-name">{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+<view class="bottom" wx:if="{{confirm}}">
+  <button open-type="getUserInfo" bindgetuserinfo="goNext" size="mini">确认</button>
+</view>

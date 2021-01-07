@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-card": "/components/card/index"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

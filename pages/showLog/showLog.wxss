@@ -1,0 +1,10 @@
+/* pages/showLog/showLog.wxss */
+.back{
+  position: absolute;
+  top: 50rpx;
+  color: white
+}
+.page {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,21 @@
+<!--components/list/index.wxml-->
+<view class="cu-list menu-avatar">
+  <block wx:for="{{thingList}}" wx:key="index">
+    <view class="cu-item {{modalName=='move-box-'+ index?'move-cur':''}}" bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" data-target="move-box-{{index}}" data-id="{{item.id}}" bindtap="showMore"
+      >
+      <image class="cu-avatar round lg" src="cloud://mylog-server-2k32o.6d79-mylog-server-2k32o-1301449695/baseImg/{{item.image}}" style="background-color:{{item.color}}"></image>
+      <view class="content">
+        <view class="text-grey">{{item.name}}</view>
+        <view class="text-gray text-sm">
+          <text class="cuIcon-upstage"></text>已坚持{{item.dayCount}}天</view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">今日</view>
+        <view class="cuIcon-{{item.todayCheck?'check':'close'}} text-green"></view>
+      </view>
+      <view class="move">
+        <view class="bg-grey" catchtap="onUpper" data-id="{{index}}">置顶</view>
+      </view>
+    </view>
+  </block>
+</view>

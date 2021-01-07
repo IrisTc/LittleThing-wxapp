@@ -1,0 +1,57 @@
+<!--pages/showMore/showMore.wxml-->
+<cu-custom bgColor="bg-gradual-green" isBack="true" bindtap="pageBack">
+  <view slot="backText">返回</view>
+  <view slot="content">编辑{{currentName}}</view>
+</cu-custom>
+<view class="container">
+  <view class="item">
+    <view>该习惯的名字：</view>
+    <input placeholder="{{currentName}}" bindinput="nameInput" maxlength="6"></input>
+  </view>
+  <view class="item">
+    <view>选择喜欢的颜色：</view>
+    <view class="wrapper">
+      <scroll-view scroll-x>
+        <view class="flex">
+          <block wx:for="{{baseList}}" wx:key='key'>
+            <view class="circle {{currentColor==item.color? 'colorActive':''}}" style="background-color:{{item.color}}" bindtap="colorPick" data-color="{{item.color}}"></view>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="item">
+    <view>选择喜欢的图标：</view>
+    <view class="wrapper">
+      <scroll-view scroll-x>
+        <view class="flex">
+          <block wx:for="{{baseList}}" wx:key='key'>
+            <view class="{{currentImage==item.image? 'imageActive':''}}">
+              <image class="icon" bindtap="ImagePick" data-image="{{item.image}}" src="cloud://mylog-server-2k32o.6d79-mylog-server-2k32o-1301449695/baseImg/{{item.image}}"></image>
+            </view>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="item">
+    <view>选择时间段：</view>
+    <scroll-view scroll-x="true" class="types">
+      <view wx:for="{{typeList}}" wx:key="index" class="type">
+        <view class="cu-tag round {{currentTime==item?'bg-orange':'line-orange'}}" bindtap="timePick" data-time="{{item}}">{{item}}</view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="item button">
+    <button class="cu-btn round bg-red" role="button" aria-disabled="false" bindtap="delete">删除习惯</button>
+    <button class="cu-btn round bg-olive" role="button" aria-disabled="false" bindtap="submit">保存编辑</button>
+  </view>
+  <view class="cu-modal show" wx:if="{{submited}}">
+  <view class="cu-dialog tip">
+    <view class="padding-xl">
+      {{tip}}
+      <text class="cuIcon-roundcheck lg text-green icon"></text>
+    </view>
+  </view>
+</view>
+</view>

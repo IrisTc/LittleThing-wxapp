@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "list": "/components/list/index"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

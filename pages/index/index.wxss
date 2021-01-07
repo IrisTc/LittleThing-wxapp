@@ -1,0 +1,50 @@
+
+.container{
+  margin-left: 50rpx;
+  margin-bottom: 120rpx;
+}
+.item {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10%;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.active{
+  background-color: #ccc;
+}
+image{
+  margin-top: 10rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.item-name{
+  width: 180rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.top-header{
+  width: 100%;
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: 700;
+  margin: 50rpx auto;
+}
+.title{
+  margin-top: 80rpx;
+  margin-bottom: 40rpx;
+  font-size: 36rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  height: 120rpx;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.bottom button{
+  margin-top: 20rpx;
+}

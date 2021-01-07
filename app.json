@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/none/none",
+    "pages/index/index",
+    "pages/today/today",
+    "pages/manager/manager",
+    "pages/showLog/showLog",
+    "pages/showMore/showMore",
+    "pages/new/new"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Little Thing",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#518459",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日打卡",
+        "iconPath": "icons/icon_1@dis.png",
+        "selectedIconPath": "icons/icon_1.png"
+      },
+      {
+        "pagePath": "pages/manager/manager",
+        "text": "目标管理",
+        "iconPath": "icons/icon_2@dis.png",
+        "selectedIconPath": "icons/icon_2.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

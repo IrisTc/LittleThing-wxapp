@@ -1,0 +1,28 @@
+<!--pages/today/today.wxml-->
+<image src="{{src}}" class="bg-image"></image>
+<view class="container">
+  <view class="top">
+    <text class="title">Petite Chose</text>
+    <view class="top-header text-white">
+      <text class="cuIcon-roundadd add" bindtap="toAdd"></text>
+      <view class="search round">
+        <input type="text" placeholder="{{motto}}" value="{{inputValue}}" maxlength="28" bindblur="mottoChange"></input>
+      </view>
+      <text class="cuIcon-{{remindShow?'noticefill':'notice'}} remind text-white" bindtap="remind"></text>
+    </view>
+  </view>
+  <view class="contain">
+    <scroll-view scroll-y class="list" bindtouchstart="touchStart" bindtouchend="touchEnd">
+      <view class='grid col-3 padding-md'>
+        <view wx:for="{{userList}}" wx:key="index" class="text-center">
+          <view bindtap="onCheck" data-index="{{index}}" data-id="{{item.id}}" class="item">
+            <image src="cloud://mylog-server-2k32o.6d79-mylog-server-2k32o-1301449695/baseImg/{{item.image}}" style="background-color:{{item.color}}"></image>
+            <view class="item-name">{{item.name}}</view>
+            <view class="item-count">打卡{{item.count}}次</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <v-card modalShow="{{cardShow}}" currentId="{{currentId}}" bind:hideModal="hideCard" bind:submit="submitLog" />
+</view>

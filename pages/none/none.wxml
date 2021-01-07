@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="content">{{motto}}</text>
+  <view class="from">—— {{author}}</view>
+</view>
+

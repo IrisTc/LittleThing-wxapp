@@ -1,0 +1,15 @@
+/* pages/none/none.wxss */
+.container {
+  padding: 600rpx 50rpx;
+  text-align: center;
+}
+.content {
+  font-size: 36rpx;
+  color: rgb(78, 75, 75);
+}
+.from{
+  float: right;
+  font-size: 36rpx;
+  color: rgb(78, 75, 75);
+  margin-top: 15rpx;
+}

@@ -1,0 +1,13 @@
+/* pages/category/category.wxss */
+.types{
+  margin: 20rpx;
+  height: 100%;
+  white-space: nowrap;
+}
+.type{
+  display: inline-block;
+}
+.cu-tag{
+  margin-right: 20rpx;
+  padding: 0 30rpx;
+}

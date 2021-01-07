@@ -1,0 +1,10 @@
+<!--pages/category/category.wxml-->
+<cu-custom bgColor="bg-gradual-green">
+  <view slot="content">目标管理</view>
+</cu-custom>
+<scroll-view scroll-x="true" class="types">
+  <view wx:for="{{typeList}}" wx:key="index" class="type">
+    <view class="cu-tag round {{currentType==item?'bg-orange':'line-orange'}}" bindtap="onSort" data-type="{{item}}">{{item}}</view>
+  </view>
+</scroll-view>
+<list thingList="{{list}}" bind:upper="onUpper" bind:delete="onDelete"></list>

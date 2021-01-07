@@ -1,0 +1,14 @@
+/* components/card/index.wxss */
+@import "../../colorui/main.wxss";
+@import "../../colorui/icon.wxss";
+.write-area{
+  width: 100%;
+  text-indent: 10rpx;
+  text-align: left;
+  font-size: 32rpx;
+}
+.toLog{
+  text-align: left;
+  margin-left: 20rpx;
+  font-size: 30rpx
+}
