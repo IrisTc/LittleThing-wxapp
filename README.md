@@ -4,7 +4,7 @@
 
 **小程序二维码**
 
-**![img](D:\wxapp\LittleThing\docs\clip_image001.jpg)**
+**![img](.\docs\clip_image001.jpg)**
 
 **项目背景**
 
@@ -78,7 +78,7 @@ Petite Chose是法语中小事情的意思
 
    为了充分利用小程序提供的云开发能力进行快速，使用了云数据库、云函数和云存储。云开发提供了完整的原生云端支持和微信服务支持，弱化后端和运维概念，无需搭建服务器，使用平台提供的 API 进行核心业务开发，即可实现快速上线和迭代。在云端运行的代码，微信私有协议天然鉴权，只需要编写自身业务逻辑。云存储提供的能力可以在小程序前端直接上传/下载云端文件，在云开发控制台进行可视化管理。
 
-![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![img](.\docs\clip_image002.png)
 
 ·    判断是否登录
 
@@ -88,7 +88,7 @@ Petite Chose是法语中小事情的意思
 
 使用了具有微信开放能力的按钮组件，open-type设为getUserInfo，绑定事件bindgetuserinfo,用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与[wx.getUserInfo](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html)返回的一致，用户同意登录后将用户登录信息存入缓存中。
 
-![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![img](.\docs\clip_image003.png)![img](.\docs\clip_image004.png)
 
 ·    图片存储
 
@@ -102,7 +102,7 @@ Petite Chose是法语中小事情的意思
 
 因为在小程序直接使用API查询最多只能返回20条记录，所以使用了云函数去数据库拿数据，再调用云函数获取到这些数据。因为数据在各个页面中同步性要求高，所以使用全局变量的方式来存储用户的习惯数据。
 
-![img](file:///C:/Users/10109/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![img](.\docs\clip_image005.png)
 
 ·    组件化代码
 
@@ -118,7 +118,7 @@ Petite Chose是法语中小事情的意思
 
    我们之所以要做记录，是为了增加成功的几率，人的大脑天生抗拒变化，喜欢维持现状，不愿意改变。这就是为什么大多数人对于新事物都是「三分钟热度」而无法勤奋地持续，最终导致失败。而人呢，都是视觉化的动物，当你的目标可视化之后成功的几率就会明显增加。而在这个小程序中，当你完成当天所定的目标之后，立刻就能看到进度，这样，你就会更加有动力，同时也能够加深你对自己的计划和进度的认知。这样就比你单纯的通过回忆来记录的效果要好的多。
 
-**专注于****“****小****”**
+**专注于“小事”**
 
    定额让每一天都变得触手可及，让目标也因此变得触手可及。该小程序设置极低的配额，都是日常的小事情、小习惯，给人一个很好的开始和启发。设定一个微观指标，让自己走出分析阶段，直接行动起来。
 
@@ -134,27 +134,27 @@ Petite Chose是法语中小事情的意思
 
 **新用户第一次打开界面**
 
-**![img](D:\wxapp\LittleThing\docs\clip_image007.jpg) ![img](D:\wxapp\LittleThing\docs\clip_image009.jpg) ![img](D:\wxapp\LittleThing\docs\clip_image011.jpg)**
+**![img](.\docs\clip_image007.jpg) ![img](.\docs\clip_image009.jpg) ![img](.\docs\clip_image011.jpg)**
 
  
 
 **习惯打卡**
 
- **![img](D:\wxapp\LittleThing\docs\clip_image013.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image015.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image017.jpg)**
+ **![img](.\docs\clip_image013.jpg)** **![img](.\docs\clip_image015.jpg)** **![img](.\docs\clip_image017.jpg)**
 
  
 
 **记录日志界面**
 
- **![img](D:\wxapp\LittleThing\docs\clip_image019.jpg)**
+ **![img](.\docs\clip_image019.jpg)**
 
 **新增和修改习惯**
 
-**![img](D:\wxapp\LittleThing\docs\clip_image021.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image023.jpg)**
+**![img](.\docs\clip_image021.jpg)** **![img](.\docs\clip_image023.jpg)**
 
 **习惯管理**
 
-**![img](D:\wxapp\LittleThing\docs\clip_image025.jpg)** **![img](D:\wxapp\LittleThing\docs\clip_image027.jpg)**
+**![img](.\docs\clip_image025.jpg)** **![img](.\docs\clip_image027.jpg)**
 
 **后续**
 
